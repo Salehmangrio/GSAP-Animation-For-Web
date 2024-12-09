@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    float: right;
+    width: 45vw;
+    height: 100vh;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.text{
+    position: absolute;
+    font-size: 2rem;
+    white-space: nowrap;
+    background-color: rgb(247, 106, 106);
+    width: 100%;
+    z-index: -1;
+    padding:20px 0;
+    color: aliceblue;
+}
